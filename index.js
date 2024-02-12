@@ -43,3 +43,15 @@ ScrollReveal().reveal('.contact',{
   reset:true
 
 });
+
+ScrollReveal().reveal('.pic',{
+  delay : 500,
+  origin:'left',
+  distance: '100px',
+  rotate: {y: 9, z: 9 },
+  interval:100,
+  scale:0.1,
+  easing   : 'linear',
+  reset:true
+
+});
