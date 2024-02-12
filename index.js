@@ -1,5 +1,5 @@
 ScrollReveal().reveal('.headline',{
-  delay : 200,
+  delay : 100,
   origin:'buttom',
   distance: '400px',
   interval:100,
@@ -10,7 +10,7 @@ ScrollReveal().reveal('.headline',{
 });
 
 ScrollReveal().reveal('.aboutme',{
-  delay : 600,
+  delay : 100,
   origin:'left',
   distance: '400px',
   rotate: {y: 9, z: 9 },
@@ -20,7 +20,7 @@ ScrollReveal().reveal('.aboutme',{
   reset:true
 });
 ScrollReveal().reveal('.skill',{
-  delay : 200,
+  delay : 100,
   origin:'top',
   distance: '400px',
   rotate: {y: 9, z: 9 },
@@ -32,7 +32,7 @@ ScrollReveal().reveal('.skill',{
 });
 
 ScrollReveal().reveal('.contact',{
-  delay : 300,
+  delay : 100,
   origin:'right',
   distance: '400px',
   rotate: {y: 9, z: 9 },
@@ -42,12 +42,5 @@ ScrollReveal().reveal('.contact',{
   reset:true
 
 });
-
- 
-Ssr.reveal('.test', {
-  duration: 600,
-  scale: 0.3,
-  distance: '0px'
-}, 200);
 
  
