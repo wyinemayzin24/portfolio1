@@ -1,5 +1,5 @@
 ScrollReveal().reveal('.headline',{
-  delay : 300,
+  delay : 200,
   origin:'buttom',
   distance: '100px',
   interval:100,
@@ -10,7 +10,7 @@ ScrollReveal().reveal('.headline',{
 });
 
 ScrollReveal().reveal('.aboutme',{
-  delay : 400,
+  delay : 200,
   origin:'left',
   rotate: {  y: 9, z: 9 },
 
@@ -21,7 +21,7 @@ ScrollReveal().reveal('.aboutme',{
 
 });
 ScrollReveal().reveal('.skill',{
-  delay : 500,
+  delay : 200,
   origin:'top',
   distance: '100px',
   rotate: {y: 9, z: 9 },
