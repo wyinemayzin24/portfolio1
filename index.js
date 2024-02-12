@@ -1,7 +1,7 @@
 ScrollReveal().reveal('.headline',{
   delay : 200,
   origin:'buttom',
-  distance: '100px',
+  distance: '400px',
   interval:100,
   opacity: 0.5,
   scale:0.2,
@@ -10,20 +10,19 @@ ScrollReveal().reveal('.headline',{
 });
 
 ScrollReveal().reveal('.aboutme',{
-  delay : 200,
+  delay : 600,
   origin:'left',
-  rotate: {  y: 9, z: 9 },
-
-  distance: '100px',
+  distance: '400px',
+  rotate: {y: 9, z: 9 },
   interval:100,
-  scale:0.5,
+  scale:0.1,
+  easing   : 'linear',
   reset:true
-
 });
 ScrollReveal().reveal('.skill',{
   delay : 200,
   origin:'top',
-  distance: '100px',
+  distance: '400px',
   rotate: {y: 9, z: 9 },
   interval:100,
   scale:0.1,
@@ -33,9 +32,9 @@ ScrollReveal().reveal('.skill',{
 });
 
 ScrollReveal().reveal('.contact',{
-  delay : 500,
+  delay : 300,
   origin:'right',
-  distance: '100px',
+  distance: '400px',
   rotate: {y: 9, z: 9 },
   interval:100,
   scale:0.1,
@@ -44,14 +43,11 @@ ScrollReveal().reveal('.contact',{
 
 });
 
-ScrollReveal().reveal('.pic',{
-  delay : 500,
-  origin:'left',
-  distance: '100px',
-  rotate: {y: 9, z: 9 },
-  interval:100,
-  scale:0.1,
-  easing   : 'linear',
-  reset:true
+ 
+Ssr.reveal('.test', {
+  duration: 600,
+  scale: 0.3,
+  distance: '0px'
+}, 200);
 
-});
+ 
